@@ -11,4 +11,4 @@ To use the plugin just add:
 ```
 --plugin /path/to/plugin/pt-online-schema-change-analyze.pl
 ```
-
+to your `pt-online-schema-change` command.
