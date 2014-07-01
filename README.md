@@ -1,7 +1,7 @@
 pt-online-schema-change-analyze
 ===============================
 
-Analyze a MySQL table before swapping it in place.
+Analyze a MySQL table before swapping it in place at the end of a migration.
 
 In certain cases it is recommended not to allow MySQL to recalculate table statistics as it can cause a drift in query plans. More info [here](http://www.mysqlperformanceblog.com/2011/10/06/when-does-innodb-update-table-statistics-and-when-it-can-bite/) and [here](http://www.mysqlperformanceblog.com/2013/12/03/innodb_stats_on_metadata-slow-queries-information_schema/).
 
